@@ -20,6 +20,18 @@ const FoodCard = ({ name, calories, value, imageURL }) => {
   );
 };
 
+// usage exemple 
+// <FoodCard
+// name='Beef Burguer'
+// calories={70}
+// value={12.00}
+// imageURL={require('./assets/burger.png')}
+// />
+// <FoodCard
+// name='Pancakes'
+// calories={60}
+// value={12.00}
+// imageURL={require('./assets/pancakes.png')} />
 const styles = StyleSheet.create({
     card: {
       flexDirection: 'row',
