@@ -21,6 +21,7 @@ const FoodCard = ({ name, calories, value, imageURL }) => {
 };
 
 // usage exemple 
+
 // <FoodCard
 // name='Beef Burguer'
 // calories={70}
