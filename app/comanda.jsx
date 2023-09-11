@@ -1,4 +1,3 @@
-import React from 'react';
 import { View, Text, TextInput } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
 import Botao from '../components/Botao';
