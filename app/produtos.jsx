@@ -2,8 +2,19 @@ import { ScrollView, View, TextInput, Text, TouchableOpacity } from "react-nativ
 import { MaterialIcons } from '@expo/vector-icons';
 import { styles } from "../styles.js";
 import Botao from "../components/Botao";
+import { useEffect, useState } from "react";
+
+import axios from "axios";
 
 export default function Produtos({navigation}) {
+    const [ produtos, setProdutos ] = useState([]);
+
+    useEffect(() => {
+        axios.get('http://localhost:3000/produtos')
+            .then(resp => setProdutos(resp.data));
+        console.log(produtos);
+    }, []);
+
     return (
     <View style={styles.containerBetween}>
         <View style={styles.header}>
