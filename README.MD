@@ -1,1 +1,1 @@
-json-server --watch ./api/db.json
+json-server --watch ./api/Sdb.json
