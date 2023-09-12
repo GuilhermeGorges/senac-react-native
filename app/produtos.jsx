@@ -5,6 +5,7 @@ import Botao from "../components/Botao";
 import { useEffect, useState } from "react";
 
 import axios from "axios";
+import CardProduto from "../components/CardProduto.jsx";
 
 export default function Produtos({navigation}) {
     const [ produtos, setProdutos ] = useState([]);
@@ -49,7 +50,7 @@ export default function Produtos({navigation}) {
             <Text style={styles.subtitle}>Produtos</Text>
 
             <ScrollView style={styles.scroll}>
-
+                {produtos.map(produto => <CardProduto key={produto.id} produto={produto}/>)}
             </ScrollView>
 
 

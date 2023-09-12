@@ -3,14 +3,20 @@
         {
             "id": 1,
             "nome": "Panqueca de Banana com Aveia",
-            "imagePath": "https://br.freepik.com/fotos-gratis/panqueca-na-mesa-de-madeira_4668853.htm",
+            "imagePath": "https://img.freepik.com/fotos-gratis/panqueca-na-mesa-de-madeira_1150-10681.jpg?w=996&t=st=1694562016~exp=1694562616~hmac=00b0dac7fff7aaa27d7b5d04a93082e59678b8d410bc6d5a1178c18c02e6e6a0",
             "preco": 15
         },
         {
             "id": 2,
             "nome": "Batata Doce Assada na Air Frier",
-            "imagePath": "https://br.freepik.com/fotos-gratis/deliciosa-batata-doce-na-vista-superior-do-prato_9366369.htm#query=Batata%20Doce&position=2&from_view=search&track=ais",
+            "imagePath": "https://img.freepik.com/fotos-gratis/deliciosa-batata-doce-na-vista-superior-do-prato_23-2148619096.jpg?w=740&t=st=1694561997~exp=1694562597~hmac=38992356d0047f9679590917cfc3b72cfc82fd45b3c29bd8e1f92b55e7e2519c",
             "preco": 20
+        },
+        {
+            "id": 3,
+            "nome": "Feijão de Vara",
+            "imagePath": "https://img.freepik.com/fotos-gratis/feijao-verde-cru-fresco_181624-6071.jpg?size=626&ext=jpg&ga=GA1.1.2013109577.1694560787&semt=ais",
+            "preco": 10
         }
     ]
 }
