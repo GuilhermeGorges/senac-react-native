@@ -1,0 +1,16 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "nome": "Panqueca de Banana com Aveia",
+            "imagePath": "https://br.freepik.com/fotos-gratis/panqueca-na-mesa-de-madeira_4668853.htm",
+            "preco": 15
+        },
+        {
+            "id": 2,
+            "nome": "Batata Doce Assada na Air Frier",
+            "imagePath": "https://br.freepik.com/fotos-gratis/deliciosa-batata-doce-na-vista-superior-do-prato_9366369.htm#query=Batata%20Doce&position=2&from_view=search&track=ais",
+            "preco": 20
+        }
+    ]
+}
