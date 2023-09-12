@@ -1,13 +1,15 @@
-import { ScrollView, View, TextInput, Text } from "react-native";
+import { ScrollView, View, TextInput, Text, TouchableOpacity } from "react-native";
 import { MaterialIcons } from '@expo/vector-icons';
 import { styles } from "../styles.js";
 import Botao from "../components/Botao";
 
-export default function Produtos() {
+export default function Produtos({navigation}) {
     return (
     <View style={styles.containerBetween}>
         <View style={styles.header}>
+            <TouchableOpacity onPress={() => navigation.navigate('Comanda')}>
                 <MaterialIcons name="arrow-back" size={24} color="black" />
+            </TouchableOpacity>
 
                 <View style={styles.box}>
                     <Text>comanda</Text>

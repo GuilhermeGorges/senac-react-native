@@ -3,15 +3,16 @@ import { Text, TextInput, TouchableOpacity, View } from 'react-native';
 import Botao from '../components/Botao';
 import { styles } from '../styles.js';
 
-export default function Comanda() {
+export default function Comanda({navigation}) {
     return (
         
         <View style={styles.containerBetween}>
             <View style={styles.header}>
                 <View>
                     <Text>Olá,</Text>
-                    <Text style={styles.title}>{user.nome}</Text>
+                    <Text style={styles.title}>Guilherme Gorges</Text>
                 </View>
+                
                 <TouchableOpacity onPress={() => navigation.navigate('Login')}>
                     <MaterialIcons name="exit-to-app" size={24} color="black" />
                 </TouchableOpacity>
